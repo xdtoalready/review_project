@@ -217,13 +217,11 @@ textarea {
 }
 @media (max-width: 991px) {
   .rating {
-    padding: 30px 0;
     margin: 15px 0;
   }
 }
 @media (max-width: 576px) {
   .rating {
-    padding: 20px 0;
     margin: 10px 0;
   }
 }
@@ -264,7 +262,6 @@ textarea {
   .rating__header {
     flex-direction: column;
     gap: 15px;
-    /* margin-bottom: 30px; */
   }
 }
 .rating__title {
@@ -465,13 +462,11 @@ textarea {
 }
 @media (max-width: 991px) {
   .feedback {
-    padding: 30px 0;
     margin: 15px 0;
   }
 }
 @media (max-width: 576px) {
   .feedback {
-    padding: 20px 0;
     margin: 10px 0;
   }
 }
@@ -511,13 +506,11 @@ textarea {
 @media (max-width: 991px) {
   .feedback__title {
     font-size: 24px;
-    margin-bottom: 25px;
   }
 }
 @media (max-width: 576px) {
   .feedback__title {
     font-size: 20px;
-    margin-bottom: 20px;
   }
 }
 .feedback__form {
@@ -720,13 +713,11 @@ textarea {
 }
 @media (max-width: 991px) {
   .reviews {
-    padding: 30px 0;
     margin: 15px 0;
   }
 }
 @media (max-width: 576px) {
   .reviews {
-    padding: 20px 0;
     margin: 10px 0;
   }
 }
@@ -768,13 +759,11 @@ textarea {
 @media (max-width: 991px) {
   .reviews__title {
     font-size: 24px;
-    margin-bottom: 25px;
   }
 }
 @media (max-width: 576px) {
   .reviews__title {
     font-size: 20px;
-    margin-bottom: 20px;
   }
 }
 .reviews__links {
@@ -875,9 +864,6 @@ textarea {
   .footer__container {
     max-width: 748px;
     padding: 0 10px;
-    flex-direction: column;
-    gap: 15px;
-    align-items: flex-start;
   }
 }
 @media (max-width: 576px) {
@@ -894,17 +880,12 @@ textarea {
   padding: 21.5px 32px;
   border-radius: var(--border-radius-lg);
 }
-@media (max-width: 576px) {
-    .footer_wrapper {
-        flex-direction: column-reverse;
-        align-items: flex-start;
-    }
-    .footer_wrapper .footer__copyright {
-        margin-top: 24px;
-    }
-    .footer__separator {
-        display: none;
-    }
+@media (max-width: 991px) {
+  .footer_wrapper {
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
 }
 .footer__copyright {
   font-size: 12px;
