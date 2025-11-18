@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отзывы - БВБ Альянс</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header_wrapper">
+                <div class="header__logo">
+                    <img src="/assets/media/logo.svg" alt="logo">
+                </div>
+                <h1 class="header__title">Отзывы</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="rating">
+            <div class="rating__container">
+                <div class="rating__wrapper">
+                    <div class="rating__header">
+                        <h2 class="rating__title">Пожалуйста, оцените качество нашей работы</h2>
+                        <p class="rating__address">
+                            <svg class="rating__address-icon" width="16" height="20" viewBox="0 0 16 20" fill="none">
+                                <path d="M8 0C3.58 0 0 3.58 0 8C0 14 8 20 8 20C8 20 16 14 16 8C16 3.58 12.42 0 8 0ZM8 10.5C6.62 10.5 5.5 9.38 5.5 8C5.5 6.62 6.62 5.5 8 5.5C9.38 5.5 10.5 6.62 10.5 8C10.5 9.38 9.38 10.5 8 10.5Z" fill="#999999"/>
+                            </svg>
+                            Вы работали с филиал БВБ-Альянс в г. Владивосток, ул. Уборевича, 5А
+                        </p>
+                    </div>
+
+                    <div class="rating_workflow">
+                        <div class="rating__question">
+                            <p class="rating__question-text">На сколько вероятно, что вы порекомендуете нас?</p>
+                        </div>
+
+                        <div class="rating__scale">
+                            <button class="rating__button" data-rating="1">
+                                <span class="rating__button-number">1</span>
+                                <span class="rating__button-label">Плохо</span>
+                            </button>
+                            <button class="rating__button" data-rating="2">
+                                <span class="rating__button-number">2</span>
+                            </button>
+                            <button class="rating__button" data-rating="3">
+                                <span class="rating__button-number">3</span>
+                            </button>
+                            <button class="rating__button" data-rating="4">
+                                <span class="rating__button-number">4</span>
+                            </button>
+                            <button class="rating__button" data-rating="5">
+                                <span class="rating__button-number">5</span>
+                                <span class="rating__button-label">Отлично</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback" id="feedbackForm">
+            <div class="feedback__container">
+                <div class="feedback__wrapper">
+                    <h3 class="feedback__title">Спасибо за вашу оценку, пожалуйста, расскажите о проблеме</h3>
+                
+                    <form class="feedback__form">
+                        <div class="feedback__row">
+                            <div class="feedback__field">
+                                <img src="./assets/media/form_name.svg" alt="form name icon" class="feedback__icon">
+                                <input type="text" class="feedback__input" placeholder="Ваше имя" required>
+                            </div>
+                            <div class="feedback__field">
+                                <img src="/assets/media/form_phone.svg" alt="form phone icon" class="feedback__icon">
+                                <input type="tel" class="feedback__input" placeholder="Ваш телефон" required>
+                            </div>
+                        </div>
+                        
+                        <div class="feedback__field feedback__field--full">
+                            <img src="/assets/media/form_message.svg" alt="form message icon" class="feedback__icon textarea_icon">
+                            <textarea class="feedback__textarea" placeholder="Сообщение" rows="5" required></textarea>
+                        </div>
+
+                        <div class="feedback__checkbox">
+                            <input type="checkbox" id="agreement" class="feedback__checkbox-input" required>
+                            <label for="agreement" class="feedback__checkbox-label">
+                                Я даю свое согласие на обработку моих персональных данных в соответствии с 
+                                <a href="#" class="feedback__link">политикой обработки персональных данных</a>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="feedback__submit">ОТПРАВИТЬ МНЕНИЕ</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews" id="reviewsLinks">
+            <div class="reviews__container">
+                <div class="reviews__wrapper">
+                    <h3 class="reviews__title">Спасибо за положительную оценку, поделитесь с другими вашим впечатлением</h3>
+                
+                    <div class="reviews__links">
+                        <a href="#" class="reviews__link reviews__map" target="_blank">
+                            <img src="/assets/media/yandex.svg" alt="">
+                            <span class="reviews__link-text">ЯНДЕКС КАРТЫ</span>
+                        </a>
+                        <a href="#" class="reviews__link" target="_blank">
+                            <img src="/assets/media/2gis.svg" alt="">
+                            <span class="reviews__link-text">2GIS</span>
+                        </a>
+                        <a href="#" class="reviews__link" target="_blank">
+                            <img src="/assets/media/flamp.svg" alt="">
+                            <span class="reviews__link-text">FLAMP</span>
+                        </a>
+                        <a href="#" class="reviews__link" target="_blank">
+                            <img src="/assets/media/otzovik.svg" alt="">
+                            <span class="reviews__link-text">ОТЗОВИК</span>
+                        </a>
+                        <a href="#" class="reviews__link reviews__map" target="_blank">
+                            <img src="/assets/media/gmaps.svg" alt="">
+                            <span class="reviews__link-text">GOOGLE MAPS</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer_wrapper">
+                <p class="footer__copyright">2005-2025 БВБ-Альянс</p>
+                <div class="footer__links">
+                    <a href="#" class="footer__link">Пользовательское соглашение</a>
+                    <span class="footer__separator">/</span>
+                    <a href="#" class="footer__link">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/scripts/main.js"></script>
+</body>
+</html>
