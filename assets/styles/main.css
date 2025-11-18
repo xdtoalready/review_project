@@ -420,10 +420,12 @@ textarea {
 }
 .rating__button-label {
   font-size: 12px;
-  color: var(--color-text-secondary);
+  color: var(--color-border);
   position: absolute;
   bottom: -25px;
   white-space: nowrap;
+  line-height: 20px;
+  font-weight: 400;
 }
 @media (max-width: 991px) {
   .rating__button-label {
@@ -586,7 +588,7 @@ textarea {
   }
 }
 .feedback__checkbox {
-  margin-bottom: 30px;
+  margin-bottom: 24px;
   display: flex;
   align-items: flex-start;
   gap: 12px;
@@ -654,7 +656,6 @@ textarea {
 }
 .feedback__link {
   color: var(--color-link);
-  text-decoration: underline;
   transition: opacity var(--transition-time);
 }
 @media (min-width: 992px) {
